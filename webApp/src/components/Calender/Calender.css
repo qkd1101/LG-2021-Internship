@@ -1,0 +1,162 @@
+.calender {
+  box-sizing: border-box;
+  margin-top: 0%;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
+  padding-left: 2%;
+}
+.calender_area {
+  width: 100%;
+  height: 100%;
+}
+.active-side {
+  opacity: 0.4;
+}
+#container {
+  float: left;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+}
+#weekDic {
+  box-sizing: border-box;
+  font-size: 1rem;
+  margin-bottom: 15%;
+  padding-top: 9%;
+  padding-bottom: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(9, 9, 138);
+  font-weight: 600;
+}
+.calenda {
+  width: 100%;
+  height: 100% !important;
+}
+.day {
+  width: 13%;
+  height: 4em;
+  display: inline-flex;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.day-num {
+  cursor: pointer;
+}
+.day-num:hover {
+  background-color: rgba(34, 33, 33, 0.3);
+  animation: color-change 0.3s ease-in-out forwards;
+}
+.plan {
+  background-color: #dbffcf;
+}
+@keyframes color-change {
+  0% {
+    color: white;
+  }
+  100% {
+    color: black;
+    font-weight: bold;
+  }
+}
+.today {
+  border: 1px solid black;
+  background-color: rgb(255, 152, 134);
+  border-radius: 0%;
+}
+.dic {
+  display: inline-block;
+  width: 11%;
+  padding: 5px;
+}
+
+.year-month-container {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 20%;
+  color: rgb(13, 13, 175);
+}
+.year-month-container-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  width: 100%;
+  flex: 1;
+  display: inline-flex;
+  height: 40px;
+  justify-content: space-evenly;
+}
+.btn > div > i {
+  opacity: 0.6;
+  transform: scale(1.8);
+  cursor: pointer;
+}
+.btn > div > i:hover {
+  opacity: 1;
+}
+
+#year {
+  font-size: 1.7em;
+  display: inline;
+}
+#bar {
+  font-size: 1.7em;
+  display: inline;
+}
+#month {
+  font-size: 1.7em;
+  display: inline;
+}
+#this-day {
+  font-size: 6rem;
+}
+#date {
+  font-size: 2rem;
+}
+.day {
+  z-index: 2;
+  position: relative;
+}
+.day .checked {
+  z-index: 1;
+  position: absolute;
+  opacity: 0.6;
+  top: 50%;
+  left: 10%;
+}
+.day .checked:hover {
+  opacity: 1;
+}
+.control-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7em;
+}
+.each_btn {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.each_btn > * {
+  width: 1.2em;
+  height: 1.2em;
+}
+.each_btn:first-child {
+  margin-right: 15%;
+  margin-left: 100%;
+}

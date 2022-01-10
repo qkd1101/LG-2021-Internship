@@ -1,0 +1,19 @@
+.users_num {
+  position: relative;
+  margin: 3% 0%;
+  margin-bottom: 4%;
+  font-size: 1.3em;
+}
+.user_num_select {
+  margin-left: 3%;
+  width: 10%; /* 원하는 너비설정 */
+  height: 8%;
+  padding: 0.5em 0.5em; /* 여백으로 높이 설정 */
+  font-family: inherit; /* 폰트 상속 */
+  position: relative;
+  border: 1px solid #999;
+  border-radius: 15px; /* iOS 둥근모서리 제거 */
+  -webkit-appearance: none; /* 네이티브 외형 감추기 */
+  -moz-appearance: none;
+  appearance: none;
+}

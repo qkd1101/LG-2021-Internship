@@ -1,0 +1,58 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "A general template for an Enact Sandstone application for webOS TVs",
+  "author": "",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "enact serve",
+    "pack": "enact pack",
+    "pack-p": "enact pack -p",
+    "watch": "enact pack --watch",
+    "clean": "enact clean",
+    "lint": "enact lint .",
+    "license": "enact license",
+    "test": "enact test",
+    "test-watch": "enact test --watch"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": "",
+  "engines": {
+    "npm": ">=6.9.0"
+  },
+  "enact": {
+    "theme": "sandstone"
+  },
+  "eslintConfig": {
+    "extends": "enact"
+  },
+  "eslintIgnore": [
+    "node_modules/*",
+    "build/*",
+    "dist/*"
+  ],
+  "dependencies": {
+    "@enact/core": "^4.0.0",
+    "@enact/i18n": "^4.0.0",
+    "@enact/moonstone": "^4.0.1",
+    "@enact/sandstone": "^2.0.0-alpha.3",
+    "@enact/spotlight": "^4.0.0",
+    "@enact/ui": "^4.0.0",
+    "@enact/webos": "^4.0.0",
+    "@material-ui/core": "^4.12.1",
+    "@material-ui/icons": "^4.11.2",
+    "@trendmicro/react-sidenav": "^0.5.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "firebase": "^8.7.1",
+    "google-map-react": "^2.1.10",
+    "ilib": "npm:ilib-webos@^14.6.2-webos1",
+    "prop-types": "^15.6.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "react-minimal-side-navigation": "^1.9.2",
+    "react-router-dom": "^5.2.0"
+  }
+}

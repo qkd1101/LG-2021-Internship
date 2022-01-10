@@ -1,0 +1,197 @@
+.profile-screen {
+  width: 100%;
+  height: 100%;
+}
+.profile-screen-bottom-background {
+  background: url("../../../images/summer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60%;
+}
+.profile-screen-top-background {
+  background-color: #8fa3e58a;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40%;
+}
+
+.profile-wrapper {
+  position: absolute;
+  top: 20%;
+  left: 18%;
+  width: 70%;
+  height: 80%;
+  background-color: #f7fafc;
+  border-radius: 1em;
+  box-shadow: 0px 0px 5px 5px rgb(128, 128, 128);
+}
+.profile-inner-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.profile-title-area {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 10%;
+  background-color: white;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  padding: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile-title-icon {
+  margin-left: 1em;
+  margin-right: 0.2em;
+  font-size: 1.2em;
+  opacity: 0.5;
+}
+.profile-title {
+  font-size: 1.5em;
+  margin-left: 1em;
+  color: #2e3f5e;
+}
+.profile-title-setting {
+  width: 5em;
+  height: 2.5em;
+  border-radius: 10%;
+  background-color: #5f72e4;
+  color: white;
+  border: none;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+.user-profile-img {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background: url("../../../images/user.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% 70%;
+  border: 10px solid slateblue;
+  box-shadow: 5px 12px 5px 5px rgb(128, 128, 128);
+  box-sizing: border-box;
+  padding: 1.2em;
+  background-color: white;
+}
+.profile-subtitile-area {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile-subtitile {
+  position: relative;
+  background-color: transparent;
+  padding: 2.3em;
+  font-size: 1.1em;
+  color: gray;
+  width: fit-content;
+  height: 2%;
+  border-bottom: 0px solid rgba(128, 128, 128, 0.349);
+}
+.ip-area {
+  padding-bottom: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.profile-user-info-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0em;
+  flex-direction: column;
+  width: 94.5%;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+  padding: 0em 2.7%;
+}
+
+.user-info-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.row-side {
+  width: 100%;
+  padding: 1em;
+}
+.profile-row-label {
+  color: #2e3f5e;
+  padding: 0.5em 0em;
+  display: flex;
+  font-size: 1.2em;
+  justify-content: flex-start;
+}
+.row-side input[type="text"] {
+  width: 90%;
+  height: 2.3em;
+  border: none;
+  border-radius: 0.3em;
+  box-shadow: 0px 1px 1px 1px rgba(128, 128, 128, 0.212);
+  font-size: 1.2em;
+  box-sizing: border-box;
+  padding: 1em;
+  pointer-events: none;
+}
+.currentIp {
+  pointer-events: visible !important;
+}
+.profile-text-area-container {
+  width: 96%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-me {
+  width: 90%;
+  height: 80%;
+  border: none;
+  border-radius: 0.3em;
+  box-shadow: 0px 1px 1px 1px rgba(128, 128, 128, 0.212);
+  font-size: 1.2em;
+  box-sizing: border-box;
+  padding: 1em;
+  resize: none;
+}
+.profile-warning {
+  width: 40%;
+  margin-left: 20%;
+  text-align: right;
+}
+.ip-row {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ip-synchronize-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 2.3em;
+  cursor: pointer;
+  color: white;
+  background-color: #5f72e4;
+  margin-left: 3%;
+  border: none;
+  border-radius: 5%;
+}

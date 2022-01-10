@@ -1,0 +1,100 @@
+.navbar {
+  background: #019be5;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: fixed;
+}
+.AppTitle {
+  position: absolute;
+  background: url("../../../images/title.png");
+  background-position: 0em 1em;
+  background-size: 110% 110%;
+  padding-top: 10%;
+  right: 34%;
+  width: 30%;
+  height: 350%;
+}
+.nav-menu-items {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+.nav-menu {
+  z-index: 11;
+  background-color: white;
+  height: 100vh;
+  width: 15%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+.nav_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 10%;
+  width: 2.5em;
+  height: 2.5em;
+  background-color: #d7c62b !important;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+.nav-text {
+  display: block;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  height: 10%;
+  width: 100%;
+}
+.nav-text a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.nav-text a:hover {
+  background-color: #1a83ff;
+  border-radius: 5%;
+}
+.nav-menu-items {
+  width: 100%;
+}
+.navbar-toggle {
+  background-color: #019be5;
+  width: 100%;
+  height: 10.2%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+span {
+  margin-left: 16px;
+}

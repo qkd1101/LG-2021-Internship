@@ -1,0 +1,41 @@
+.home-screen {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background: url("../../../images/background2.png");
+  background-repeat: no-repeat;
+  background-color: #98b3fa;
+  background-position: 0em 1em;
+  background-size: 110% 110%;
+  padding-top: 10%;
+}
+.home-screen-inner-border {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.home_wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 0%;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4em;
+}
+.calender_img {
+  background: url("../../../images/calender.png");
+  background-repeat: no-repeat;
+  background-position: 0em 2em;
+  background-size: 77% 100%;
+  padding-right: 10%;
+  padding-left: 1%;
+  width: 25%;
+  height: 77%;
+}
+.calender_area {
+  position: relative;
+}
